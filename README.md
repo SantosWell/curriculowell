@@ -1,2 +1,1 @@
-# curriculowell
-curriculo well
+# http://curriculowell.github.io
