@@ -1,0 +1,268 @@
+/*Config Geral*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+	 margin:0px;
+	 padding:0px; 
+	 
+	
+}
+
+p,h1,h2,a{
+	font-family: 'Montserrat', sans-serif;
+	margin:0px;
+	padding:0px; 
+}
+section{
+	height:250px auto;
+}
+.fundo-mapa{
+	background-image:url(../midia/img/svg/fundo-mapa.svg); 
+	background-size:cover;
+	background-position:center;  
+	background-attachment:fixed;
+
+	
+}
+.fundo-mapa-branco{
+	background-image:url(../midia/img/svg/fundo-mapa-branco.svg); 
+	background-size:cover;
+	background-position:center;  
+	background-attachment:fixed;
+
+	
+}
+.mapa-tesouro{
+	background-image:url(../midia/img/svg/fundo-mapa-tesouro.svg); 
+	background-size:cover;
+	background-position:center;  
+	background-attachment:fixed;
+}
+.box-down{
+	position:absolute;
+	margin-top:30.5%;
+	left:39.5%;
+}
+/*Header*/
+.apresenta-box{
+	position:absolute;
+	top:37.5%;
+	left:20.5%;
+	margin-right:auto;
+	margin-bottom:auto;
+	text-align:center;
+	color:rgb(240,240,240);
+
+
+}
+.apresenta-box a {
+	color:rgb(240,240,240);
+	text-decoration:none;
+}
+.header-trainee-well{
+	background-image:url(../midia/img/svg/imgprincipal.svg); 
+	background-size:cover;
+	background-position:center;  
+	background-attachment:fixed; 
+	height:100vh;
+}
+.header-trainee{
+	background-color:rgba(76, 143, 163,0.7);
+	background-size:cover;
+	background-position:center;  
+	background-attachment:fixed; 
+	height:100vh;
+}
+.background-trainee{
+	 position: fixed; 
+	 right: 0; 
+	 bottom: 0;
+	 min-width: 100%; 
+	 min-height: 100%;
+	 width: auto; 
+	 height: auto; 
+	 z-index: -1000;
+	 background: url(images/torre.jpg) no-repeat;
+	 background-size: cover; 
+}
+.menu-trainee{
+	background-color:rgba(76, 143, 163,0.7);
+	box-shadow: 1px 2px 2px #000;
+
+}
+
+.nav-menu{
+	
+	display:inline-flex;
+
+	
+	
+}
+.nav-menu a{
+	text-decoration:none;
+	list-style-type:none;
+	padding:20px;
+
+
+	 
+}
+.nav-menu a:hover{
+	background-color:rgba(76, 143, 163,0.7); 
+}
+.nav-menu li{
+	font-family: 'Montserrat', sans-serif;
+	font-size:18px;
+	color:#f0f0f0;
+}
+
+.box-perfil{
+	position:absolute;
+	top:37.5%;
+	left:42.75%;
+	margin-right:auto;
+	margin-bottom:auto;
+	text-align:center;
+	
+	}
+.box-perfil-name {
+	font-size:20px;
+	font-family: 'Montserrat', sans-serif;
+	color:#f0f0f0;
+	margin-top:25px; 
+	margin-bottom:25px; 
+}
+.box-midias {
+	list-style:none;
+	display:block;
+	position:absolute;
+	margin-right:auto;
+	margin-bottom:auto;
+}
+.icone-midia{
+	width:25%;
+	height:auto;
+	display:inline-block;
+}
+
+
+
+/*/*Section Site*/
+
+.line-txt{
+	font-size:18px; 
+	text-align:justify;
+	line-height:2;
+	
+
+}
+.off-link{
+	list-style:none;
+	color:rgb(0,0,0); 
+}
+.off-link:hover {
+	color:rgb(76, 143, 163);
+}
+
+/*Section Pelos 7 Mares*/
+.img-section{
+	margin-top:30%;
+	margin-bottom:20%;  
+	width:110%;
+	height:110%;
+}
+
+.sete-mares{
+	background-color:rgb(240,240,240);
+	position:relative; 
+	color:#000000;
+	height:250px auto;
+	width:100%;
+	padding-bottom:100px;
+	padding-top:100px; 
+}
+
+/*Section Vamos para o Norte*/
+.para-norte{
+	background-color:rgb(8,65,92); 
+	color:#f0f0f0;
+	height:250px auto;
+	width:100%;
+	padding-top:100px;
+	padding-bottom:100px;   
+	
+
+}
+/*Section Meu Barco*/
+.meu-barco{
+	background-color:rgb(240,240,240); 
+	color:#000000;
+	height:250px auto;
+	width:100%;
+	padding-top:100px;
+	padding-bottom:100px; 
+}
+/*Section Histórias de Velejante*/
+.historias-de-velejante{
+	background-color:rgb(47,69,80); 
+	color:#f0f0f0;
+	height:250px auto;
+	width:100%;
+	padding-top:100px;
+	padding-bottom:100px; 
+}
+/*Section No Triângulo das Bermugas*/
+.triangulo-das-bermudas{
+	background-color:rgb(240,240,240); 
+	color:#000000;
+	height:250px auto;
+	width:100%;
+	padding-top:100px;
+	padding-bottom:100px; 
+
+}
+
+/*Section Meu tesouro*/
+.meu-tesouro{
+	background-color:rgb(8,65,92); 
+	color:#f0f0f0;
+	height:250px auto;
+	width:100%;
+	padding-top:100px;
+	padding-bottom:100px; 
+}
+.video-tesouro{
+	width:480px; 
+	height:280px;
+	margin-right:auto;
+	margin-left:auto; 
+}
+/*Rodape*/
+.rodape{
+	background-color:rgb(47,69,80); 
+	min-height:70px auto;
+	color:#f0f0f0;
+	padding-left: 0;
+  	margin-bottom: 0;
+  	list-style: none;
+  	 }
+ 
+ 
+.box-rodape{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;  
+  height: 65px auto;
+  padding-bottom: 15px ;
+  padding-top: 15px ;
+  
+
+  
+}
+.box-top{
+	height:70px;
+	width:70px;
+	margin-left:auto;
+	margin-right:auto;
+	  
+}
+
